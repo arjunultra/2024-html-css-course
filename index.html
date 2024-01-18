@@ -7,16 +7,47 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="wrap">
+      <header>
+        <div class="header-left">
+          <a href="index.html"><img src="./logo.svg" alt="logo" /></a>
+        </div>
+        <div class="divider hide-mobile"></div>
+        <a class="home hide-mobile" href="#">Home</a>
+        <nav>
+          <a class="menu-open hide-desktop" href="#">
+            <img src="./menu.svg" alt="open menu" />
+          </a>
+          <ul>
+            <li>
+              <a href="#">
+                <img
+                  class="menu-close hide-desktop"
+                  src="./close.svg"
+                  alt="close menu"
+                />
+              </a>
+            </li>
+            <li><a href="#"></a>Our Food</li>
+            <li><a href="#"></a>Ingredients</li>
+            <li><a href="#"></a>Studies</li>
+            <li><a href="#"></a>FAQ</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Your cat will go <img src="./bonkers.svg" alt="bonkers" /></h1>
+        <p class="subhead">
+          .. for the world's best testing cat food, sourced with only the finest
+          ingredients. Made with love from the heart of Mississippi.
+        </p>
+        <a href="#" class="cta">Get Bonkers</a>
+        <div class="cat-container">
+          <img src="./cat.png" alt="cat image" />
+          <div class="inner-circle"></div>
+          <div class="outer-circle"></div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
